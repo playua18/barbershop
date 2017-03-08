@@ -188,7 +188,6 @@ img {
 
 .main-navigation {
   float: left;
-  min-height: 70px;
   width: 780px;
 }
 
@@ -317,7 +316,6 @@ img {
 .features-item {
   float: left;
   margin-right: 20px;
-  min-height: 175px;
   width: 300px;
   text-align: center;
 }
@@ -367,13 +365,11 @@ img {
 
 .index-content-left {
   float: left;
-  min-height: 330px;
   width: 380px;
 }
 
 .index-content-right {
   float: right;
-  min-height: 330px;
   width: 300px;
 }
 
