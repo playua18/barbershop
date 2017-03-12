@@ -17,12 +17,12 @@ img {
   height: auto;
 }
 
-.inner-page, .inner-login, .inner-map, .shop-page, .item {
+.price-page, .price-login, .price-map, .shop-page, .item {
   background: #f8f5f2 url("/img/bg-index-content.png");
   color: #000;
 }
 
-.inner-content-title h1 {
+.price-content-title h1 {
   margin: 0;
   padding: 0;
   padding-bottom: 20px;
@@ -32,17 +32,17 @@ img {
 
 .breadcrumbs {
   margin: 0;
+  margin-bottom: 55px;
   padding: 0;
   list-style: none;
   font-size: 0;
-  margin-bottom: 55px;
 }
 
 .breadcrumbs li {
   position: relative;
   display: inline;
-  font-size: 14px;
   padding-right: 40px;
+  font-size: 14px;
 }
 
 .breadcrumbs a {
@@ -94,52 +94,52 @@ img {
 }
 
 .big-header::after {
-  content: "";
-  border-bottom: 2px solid #000000;
-  display: block;
-  bottom: 24px;
   position: relative;
+  bottom: 24px;
   z-index: 1;
+  display: block;
+  border-bottom: 2px solid #000000;
+  content: "";
 }
 
 .big-header h2 {
-  font-size: 48px;
-  line-height: 48px;
-  display: inline;
-  padding: 0 25px;
-  margin: 0;
   position: relative;
   z-index: 2;
+  display: inline;
+  margin: 0;
+  padding: 0 25px;
   background: #f8f5f2 url("/img/bg-index-content.png") repeat;
+  font-size: 48px;
+  line-height: 48px;
 }
 
 .custom-list {
-  list-style: none;
   padding: 0;
+  list-style: none;
 }
 
 .custom-list li {
   position: relative;
-  padding-left: 20px;
   padding-bottom: 15px;
+  padding-left: 20px;
 }
 
 .custom-list li::before {
   position: absolute;
-  content: "";
-  width: 8px;
-  height: 8px;
   top: 8px;
   left: 0;
+  width: 8px;
+  height: 8px;
   background-color: #000000;
+  content: "";
   -webkit-transform: rotate(45deg);
   transform: rotate(45deg);
 }
 
 .prices-table {
   display: table;
-  border-collapse: collapse;
   width: 100%;
+  border-collapse: collapse;
 }
 
 .prices-table ul {
@@ -148,9 +148,9 @@ img {
 
 .prices-table li {
   display: table-cell;
-  border: 2px solid #000;
   padding: 10px 15px;
   width: 50%;
+  border: 2px solid #000;
   vertical-align: middle;
 }
 .prices-table li:last-child {
@@ -169,9 +169,9 @@ img {
   width: 940px;
 }
 
-.inner-login {
-  min-height: calc(100vh - 96px);
+.price-login {
   padding-bottom: 90px;
+  min-height: calc(100vh - 96px);
   background: -webkit-linear-gradient(left, #ccc 0%, white 30%, white 70%, #ccc 100%);
   background: linear-gradient(to right, #ccc 0%, white 30%, white 70%, #ccc 100%);
 }
@@ -182,7 +182,7 @@ img {
   color: #ffffff;
 }
 
-.inner-page .main-header {
+.price-page .main-header {
   margin-bottom: 55px;
 }
 
@@ -239,9 +239,9 @@ img {
 .main-navigation .inner-logo {
   float: left;
   padding-top: 22px;
-  padding-bottom: 28px;
+  padding-bottom: 24px;
   width: 111px;
-  height: 20px;
+  height: 24px;
 }
 
 .main-navigation .inner-logo:hover {
@@ -287,14 +287,6 @@ img {
 
 .login:hover::before {
   opacity: 1;
-}
-
-.index-logo {
-  margin-right: auto;
-  margin-bottom: 25px;
-  margin-left: auto;
-  width: 368px;
-  height: 204px;
 }
 
 .index-logo {
@@ -447,21 +439,21 @@ img {
 }
 
 .index .gallery-content {
+  overflow: auto;
   margin: 0;
   height: 200px;
-  overflow: auto;
 }
 
 .index .gallery-content img {
   margin-right: 5px;
-  background-color: #ccc;
   width: 137px;
   height: 82px;
+  background-color: #ccc;
 }
 
 .index .gallery-content img:hover {
-  filter: brightness(125%);
   -webkit-filter: brightness(125%);
+  filter: brightness(125%);
 }
 
 .index .gallery-content a:nth-child(2n) img  {
@@ -500,9 +492,9 @@ img {
 }
 
 .index .gallery-live .btn {
-  display: inline-block;
   position: absolute;
   bottom: 0;
+  display: inline-block;
   margin: 0;
   width: 140px;
 }
@@ -542,17 +534,17 @@ img {
   width: 100%;
 }
 
-.inner-columns {
+.price-columns {
   margin: 60px 0;
 }
 
-.inner-column-left {
+.price-column-left {
   float: left;
   margin-right: 20px;
   width: 460px;
 }
 
-.inner-column-right {
+.price-column-right {
   float: right;
   width: 460px;
 }
@@ -561,13 +553,13 @@ img {
   padding-right: 80px;
 }
 
-.inner-column-left *:first-child,
-.inner-column-right *:first-child {
+.price-column-left *:first-child,
+.price-column-right *:first-child {
   margin-top: 0;
 }
 
-.inner-column-left *:last-child,
-.inner-column-right *:last-child {
+.price-column-left *:last-child,
+.price-column-right *:last-child {
   margin-bottom: 0;
 }
 
@@ -579,10 +571,10 @@ img {
   color: #fff;
 }
 
-.inner-login .main-footer {
+.price-login .main-footer {
   position: absolute;
-  width: 100%;
   bottom: 0;
+  width: 100%;
 }
 
 .footer-contacts {
@@ -672,26 +664,25 @@ img {
 }
 
 .modal-content {
-  display: none;/* ----------скрытый----------- */
   position: absolute;
-  z-index: 30;
-  left: 50%;
   top: 120px;
+  left: 50%;
+  z-index: 30;
+  display: none;/* ----------скрытый----------- */
   margin-left: -230px;
-  width: 300px;
   padding: 50px 80px;
-  color: #000;
+  width: 300px;
   background: #f8f5f2 url("/img/bg-index-content.png");
   box-shadow: 0 30px 50px  rgba(0, 0, 0, 0.75);
+  color: #000;
 }
 
-.inner-login .modal-content {
-  display: block;
+.price-login .modal-content {
   position: static;
-  box-shadow: none;
+  display: block;
   margin: auto;
   background: transparent;
-
+  box-shadow: none;
 }
 
 @-webkit-keyframes bounce {
@@ -731,33 +722,33 @@ img {
   animation: shake 0.6s;
 }
 
-.inner-login .modal-content-close {
+.price-login .modal-content-close {
   display: none;
 }
 
 .modal-content-close {
-  right: -35px;
-  top: 8px;
   position: absolute;
-  outline: 0;
-  border: 0;
+  top: 8px;
+  right: -35px;
   width: 23px;
   height: 23px;
+  outline: 0;
+  border: 0;
   background-color: transparent;
-  cursor: pointer;
   font-size: 0;
+  cursor: pointer;
 }
 
 .modal-content-close::before,
 .modal-content-close::after {
-  content: "";
   position: absolute;
-  width: 7px;
-  height: 27px;
-  background-color: #fdfdfd;
-  border-radius: 1px;
   top: -2px;
   left: 8px;
+  width: 7px;
+  height: 27px;
+  border-radius: 1px;
+  background-color: #fdfdfd;
+  content: "";
 }
 
 .modal-content-close::before {
@@ -768,7 +759,6 @@ img {
 .modal-content-close::after{
   -webkit-transform: rotate(-45deg);
   transform: rotate(-45deg);
-
 }
 
 .modal-content h2 {
@@ -790,14 +780,14 @@ img {
 
 .modal-content input[type="text"],
 .modal-content input[type="password"] {
-  width: 241px;
-  padding: 10px 15px;
-  padding-right: 40px;
   margin: 0;
   margin-bottom: 10px;
-  background-color: #f9f6f3;
-  border: 2px solid  #000;
+  padding: 10px 15px;
+  padding-right: 40px;
+  width: 241px;
   outline: none;
+  border: 2px solid  #000;
+  background-color: #f9f6f3;
   color: #000000;
   text-transform: uppercase;
   font-weight: 700;
@@ -816,7 +806,6 @@ img {
 
 .modal-content input.icon-password {
   background: #f9f6f3 url("../img/spritesheet.png") 100% -310px no-repeat;
-
 }
 
 .modal-content .restore {
@@ -825,8 +814,8 @@ img {
 }
 
 .modal-content .btn {
-  width: 100%;
   margin-top: 15px;
+  width: 100%;
 }
 
 .login-checkbox {
@@ -846,22 +835,22 @@ img {
 
 .login-checkbox .checkbox-indicator {
   position: absolute;
+  bottom: 0px;
+  left: 0px;
   width: 16px;
   height: 16px;
-  left: 0px;
-  bottom: 0px;
-  background-color: #f9f6f3;
   border: 2px solid #000000;
+  background-color: #f9f6f3;
 }
 
 .login-checkbox input[type="checkbox"]:checked + .checkbox-indicator::before,
 .login-checkbox input[type="checkbox"]:checked + .checkbox-indicator::after {
-  content: "";
   position: absolute;
+  bottom: 7px;
   width: 16px;
   height: 2px;
   background-color: #000000;
-  bottom: 7px;
+  content: "";
 }
 
 .login-checkbox input[type="checkbox"] + .checkbox-indicator::before {
@@ -875,13 +864,13 @@ img {
 }
 
 .modal-content-map {
-  display: none; /* ----------скрытый----------- */
   position: fixed;
-  z-index: 30;
   top: 50%;
   left: 50%;
-  margin-left: -390px;
+  z-index: 30;
+  display: none; /* ----------скрытый----------- */
   margin-top: -287px;
+  margin-left: -390px;
   width: 767px;
   height: 560px;
   border: 7px solid #ffffff;
@@ -889,9 +878,9 @@ img {
   box-shadow:  0 30px 50px rgba(0, 0, 0, 0.75);
 }
 
-.inner-map .modal-content-map {
-  display: block;
+.price-map .modal-content-map {
   position: static;
+  display: block;
   margin:  auto;
   box-shadow: none;
 }
@@ -905,14 +894,14 @@ img {
 }
 
 .modal-overlay {
-  display: none; /* -------------------скрытый оверлей для карты*/
   position: fixed;
-  z-index: 10;
-  left: 0;
   top: 0;
-  background-color: rgba(0, 0, 0, 0.5);
+  left: 0;
+  z-index: 10;
+  display: none; /* -------------------скрытый оверлей для карты*/
   width: 100%;
   height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
 }
 
 .overlay-show {
@@ -920,28 +909,28 @@ img {
 }
 
 .shop-page .choise {
-  width: 220px;
   float: left;
   margin-right: 20px;
+  width: 220px;
 }
 
 .choise legend {
+  margin-bottom: 30px;
   font-size: 24px;
   line-height: 36px;
-  margin-bottom: 30px;
 }
 
 .choise ul {
-  list-style: none;
   margin: 0;
-  padding: 0;
   margin-bottom: 50px;
+  padding: 0;
+  list-style: none;
 }
 
 .choise li {
+  position: relative;
   margin-bottom: 17px;
   padding-left: 43px;
-  position: relative;
 }
 
 .choise input {
@@ -949,70 +938,70 @@ img {
 }
 
 .company .checkbox-indicator{
-  content: "";
   position: absolute;
+  bottom: 3px;
+  left:0px;
   width: 16px;
   height: 16px;
   border: 2px solid #000;
-  left:0px;
-  bottom: 3px;
+  content: "";
 }
 
 .company input[type="checkbox"]:checked + label::before,
 .company input[type="checkbox"]:checked + label::after {
-  content: "";
   position: absolute;
-  background-color: #000;
   width: 16px;
   height: 2px;
+  background-color: #000;
+  content: "";
 }
 
 .company input[type="checkbox"]:checked + label::before {
+  bottom: 12px;
+  left:2px;
   -webkit-transform: rotate(45deg);
   transform: rotate(45deg);
-  left:2px;
-  bottom: 12px;
 }
 
 .company input[type="checkbox"]:checked + label::after{
+  bottom: 12px;
+  left:2px;
   -webkit-transform: rotate(-45deg);
   transform: rotate(-45deg);
-  left:2px;
-  bottom: 12px;
 }
 
 .group .radio-indicator {
-  content: "";
   position: absolute;
+  top: 2px;
+  left:0px;
   width: 16px;
   height: 16px;
   border: 2px solid #000;
-  left:0px;
-  top: 2px;
   border-radius: 50%;
+  content: "";
 }
 
 .group input[type="radio"]:checked + label::before
  {
-  content: "";
   position: absolute;
-  background-color: #000;
   width: 8px;
   height: 8px;
   border-radius: 50%;
+  background-color: #000;
+  content: "";
 }
 
 .group input[type="radio"]:checked + label::before {
+  top: 8px;
+  left: 6px;
   -webkit-transform: rotate(45deg);
   transform: rotate(45deg);
-  left: 6px;
-  top: 8px;
 }
 
 .pagination {
-  list-style: none;
-  margin-top: 45px;
   float: left;
+  margin-top: 45px;
+  list-style: none;
 }
 
 .pagination ul {
@@ -1025,11 +1014,11 @@ img {
 }
 
 .pagination .btn {
+  margin-right: 7px;
+  padding: 0;
   width: 43px;
   height: 43px;
-  padding: 0;
   line-height: 43px;
-  margin-right: 7px;
 }
 
 .pagination .active {
@@ -1039,15 +1028,15 @@ img {
 }
 
 .shop-content .catalog {
-  width: 700px;
   float: right;
+  width: 700px;
 }
 
 .shop-content .shop-item {
   float: left;
-  width: 220px;
   margin-right: 20px;
   margin-bottom: 20px;
+  width: 220px;
   box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
 }
 
@@ -1065,21 +1054,21 @@ img {
 }
 
 .categoty-title {
-  width: 190px;
   margin: 15px;
+  width: 190px;
   white-space: 1px;
 }
 
 .categoty-title a {
+  display: block;
   color: #000;
   text-decoration: none;
-  display: block;
   line-height: 14px; /* временное свойство */
 }
 
 .price-buy {
-  height: 44px;
   width: 190px;
+  height: 44px;
 }
 
 .price-buy {
@@ -1094,14 +1083,14 @@ img {
 
  .buy {
   float: right;
-  width: 78px;
-  padding: 10px 15px;
   margin: 0;
+  padding: 10px 15px;
+  width: 78px;
 }
 
 .item .gallery {
-  width: 460px;
   float: left;
+  width: 460px;
 }
 
 .item .gallery .bigger-img {
@@ -1110,16 +1099,16 @@ img {
 }
 
 .item .list-img {
-  height: 149px;
   margin-top: 20px;
+  height: 149px;
 }
 
 .list-img .smaller-img {
-  width: 140px;
-  height: 149px;
+  display: inline-block;
   float: left;
   margin-right: 20px;
-  display: inline-block;
+  width: 140px;
+  height: 149px;
 }
 
 .list-img .smaller-img:last-child {
@@ -1127,8 +1116,8 @@ img {
 }
 
 .description-custom-list {
-  width: 390px;
   float: right;
+  width: 390px;
 }
 
 .item .right-description-title {
