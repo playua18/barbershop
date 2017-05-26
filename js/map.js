@@ -12,11 +12,11 @@
       popupmap.classList.remove("modal-content-map-show");
       overlay.classList.remove("overlay-show");
     });
-window.addEventListener("keydown", function(event) {
-  if (event.keyCode === 27) {
-    if (popupmap.classList.contains("modal-content-map-show")) {
-    popupmap.classList.remove("modal-content-map-show");
-    overlay.classList.remove("overlay-show");
-    }
-  }
-});
+    window.addEventListener("keydown", function (event) {
+      if (event.keyCode === 27) {
+        if (popupmap.classList.contains("modal-content-map-show")) {
+          popupmap.classList.remove("modal-content-map-show");
+          overlay.classList.remove("overlay-show");
+        }
+      }
+    });
